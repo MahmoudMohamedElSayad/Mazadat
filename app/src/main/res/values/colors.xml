@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#426E8A</color>
+    <color name="purple_700">#426E8A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#D63031</color>
+    <color name="success">#32BEA6</color>
+    <color name="error">#E04F5F</color>
+    <color name="gray_text_color">#252525</color>
+    <color name="pink">#D81357</color>
+    <color name="green">#32BEA6</color>
+    <color name="cancel_red">#E04F5F</color>
+    <color name="gray2">#808080</color>
+    <color name="gray">#ECEBEB</color>
+    <color name="app_color">#426E8A</color>
+    <color name="dark_screen1">#f6f6f6</color>
+    <color name="green_black">#39484C</color>
+    <color name="app_green">#80d261</color>
+    <color name="black_gray">#A6A6A6</color>
+    <color name="red2">#D63031</color>
+    <color name="yellow">#ffcd33</color>
+    <color name="card_item_color">#FADAAB</color>
+    <color name="card_item_color2">#18707070</color>
+    <color name="card_item_home_color2">#01000000</color>
+    <color name="gray_image">#19F44336</color>
+    <color name="black_1F1F1F">#1F1F1F</color>
+    <color name="hint_ABABAB">#ABABAB</color>
+    <color name="gray_6B6B6B">#6B6B6B</color>
+    <color name="gray_424242">#424242</color>
+    <color name="red_E55151">#E55151</color>
+    <color name="red_hint_B53636">#B53636</color>
+    <color name="grean_0B847A">#0B847A</color>
+    <color name="blue_187BB9">#187BB9</color>
+    <color name="black_292929">#292929</color>
+    <color name="hint_595959">#595959</color>
+    <color name="blue_D3E8F5">#D3E8F5</color>
+    <color name="black_4F4F4F">#4F4F4F</color>
+    <color name="status_color">#30EDEDED</color>
+    <color name="grean_2D802D">#2D802D</color>
+    <color name="grean_9DDD9D">#9DDD9D</color>
+    <color name="red_FBBCBC">#FBBCBC</color>
+    <color name="red_F44040">#F44040</color>
+    <color name="trans">@android:color/transparent</color>
+    <color name="black_404040">#404040</color>
+    <color name="white_4DFFFFFF">#4DFFFFFF</color>
+
+
+</resources>

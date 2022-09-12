@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.supPages.CautionDetailsFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/linear_shap_border_gray"
+        android:elevation="@dimen/_32sdp">
+
+        <Button
+            android:id="@+id/fragment_caution_details_share_in_cautions_btu"
+            style="@style/text_view_style_noto_sans_arabic_bold"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@drawable/shap_buttom_blue"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:text="@string/Participate_in_the_auction"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:backgroundTint="@null" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp">
+
+            <ImageView
+                android:id="@+id/caution_details_fragment_image_caution_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ccccc" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradient_background_black_two"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_40sdp">
+
+                <ImageView
+                    android:id="@+id/back_btu"
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:elevation="@dimen/_5sdp"
+                    android:src="@drawable/ic_back_image"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/fragment_sub_category_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="@string/caution_details"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/fragment_caution_details_caution_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/sup_grean_shape"
+                android:elevation="@dimen/_1sdp"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_16sdp"
+                android:paddingBottom="@dimen/_2sdp"
+                android:text="@string/Auction_finished"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_64sdp"
+            android:layout_marginEnd="@dimen/_64sdp"
+            android:background="@drawable/sup_white_shape"
+            android:elevation="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_day_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="center"
+                    android:text="04"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="@string/day"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_10ssp" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_clock_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="center"
+                    android:text="04"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="@string/clock"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_10ssp" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_minute_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="center"
+                    android:text="04"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="@string/minute"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_10ssp" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_second_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="center|center_vertical"
+                    android:text="04"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="@string/seconds"
+                    android:textColor="@color/grean_0B847A"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier=".6"
+                    android:text="فرصة لمنشآة صناعية بالمدينة الصناعية بمكة المكرمة "
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_14ssp" />
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_text_details_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier=".6"
+                    android:text="تعلن مؤسسة يوسف الحمياني تحت إشراف مركز الإسنـاد والتصفية إنفاذ“ وبقرار من محكمة التنفيـذ عن بيع 4 عقارات بمواقـع مميـزة في محافظـة ..."
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier=".6"
+                    android:text="صور العين"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_14ssp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/fragment_caution_details_gellary_images_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp" />
+
+                <LinearLayout
+                    android:id="@+id/fragment_client_details_layout_parent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:background="@drawable/shapauto"
+                    android:elevation="@dimen/_2sdp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_caution_details_caution_btu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:paddingEnd="@dimen/_16sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosansarabic_bold"
+                            android:gravity="center_vertical"
+
+                            android:paddingStart="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/caution_details"
+                            android:textColor="@color/black_292929"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:id="@+id/fragment_caution_details_arrow_image_caution_btu1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/ic_arrow_up_blue_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/caution_details_layout_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:orientation="vertical"
+                         >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="عدد المزايدات :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_count_cautions_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="5"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_show_records_btu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_1sdp"
+                                android:background="@drawable/strock_blue_shape"
+                                android:fontFamily="@font/notosansarabic_bold"
+                                android:gravity="center"
+                                android:paddingStart="@dimen/_8sdp"
+                                android:paddingTop="@dimen/_2sdp"
+                                android:paddingEnd="@dimen/_8sdp"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="@string/Watch_the_record"
+                                android:textColor="@color/app_color"
+                                android:textSize="@dimen/_11ssp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="رقم المزاد :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_number_cautions_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="5"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="السعر الحالي :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_price_cautions_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="4,410,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="سعر المتر :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_meter_price_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="4,410,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_13ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="الحد الأدني للمزايدة :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_more_price_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="50,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="قيمة السعي :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_quest_value_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="110,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_8sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="قيمة الضريبة المضافة :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_added_tax_value_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="110,145,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="تاريخ بداية المزاد :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_start_caution_date_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="1444/01/09 ه - 7/8/200 م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="تاريخ نهاية المزاد :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_end_caution_date_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="1444/02/01 ه - 7/9/200 م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="السعر الإفتتاحي :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_opening_price_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="110,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_8sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="مبلغ التأمين :"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_insurance_amount_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="100,000 ر.س"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_client_details_layout_parent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+
+                    android:background="@drawable/shapauto"
+                    android:elevation="@dimen/_2sdp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_caution_details_el_ean_details_btu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:paddingEnd="@dimen/_16sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosansarabic_bold"
+                            android:gravity="center_vertical"
+
+                            android:paddingStart="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/el_aan_details"
+                            android:textColor="@color/black_292929"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:id="@+id/fragment_caution_details_arrow_image_caution_btu2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/ic_arrow_up_blue_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/caution_details_layout_shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/eye_type"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_eye_type_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="عقار"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Area_m"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Area_m_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="15,606.05 م²"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Region"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Region_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="القصيم"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/City"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_City_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="بريدة"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_13ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Entity"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Entity_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="حكومي"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:layout_marginTop="@dimen/_16sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_bold"
+                                android:gravity="center_vertical"
+                                android:text="@string/Al_Ain_location_on_the_map"
+                                android:textColor="@color/black_292929"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/fragment_orders_details_container_image_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_150sdp"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:layout_marginBottom="@dimen/_16sdp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/imag3"
+                                app:riv_border_color="@color/app_color"
+                                app:riv_corner_radius="@dimen/_8sdp"
+
+
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_client_details_layout_parent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:background="@drawable/shapauto"
+                    android:elevation="@dimen/_2sdp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_caution_details_el_ean_properties_btu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:paddingEnd="@dimen/_16sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosansarabic_bold"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/el_aan_properties"
+                            android:textColor="@color/black_292929"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:id="@+id/fragment_caution_details_arrow_image_caution_btu3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/ic_arrow_up_blue_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/caution_details_layout_shape3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/North"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_North_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="شارع عرض 20م بطول 20م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/south"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_south_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="قطعة رقم 502 بطول 20م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/East"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_East_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="قطعة رقم 499 بطول 25م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/West"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_West_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="قطعة رقم 503 بطول 25م"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Number_of_bedrooms"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Number_of_bedrooms_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="4"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Number_of_halls"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Number_of_halls_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="5"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_8sdp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Number_of_toilets"
+                                android:textColor="@color/hint_595959"
+                                android:textSize="@dimen/_11ssp" />
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_Number_of_toilets_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:text="4"
+                                android:textColor="@color/black_1F1F1F"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_client_details_layout_parent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_64sdp"
+                    android:background="@drawable/shapauto"
+                    android:elevation="@dimen/_2sdp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_caution_details_attachments_btu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:paddingEnd="@dimen/_16sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosansarabic_bold"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_8sdp"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="@string/attachment"
+                            android:textColor="@color/black_292929"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:id="@+id/fragment_caution_details_arrow_image_caution_btu4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/ic_arrow_up_blue_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/caution_details_layout_shape4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_16sdp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginEnd="@dimen/_16sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_4sdp"
+                            app:cardElevation="@dimen/_2sdp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="@dimen/_4sdp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_pdf_file" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center|center_vertical"
+                                    android:layout_marginTop="@dimen/_8sdp"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    android:fontFamily="@font/notosansarabic_semibold"
+                                    android:gravity="center"
+                                    android:text="@string/brochure"
+                                    android:textColor="@color/app_color"
+                                    android:textSize="@dimen/_13sdp" />
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginEnd="@dimen/_1sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_4sdp"
+                            app:cardElevation="@dimen/_2sdp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="@dimen/_4sdp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_youtube" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center|center_vertical"
+                                    android:layout_marginTop="@dimen/_8sdp"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    android:fontFamily="@font/notosansarabic_semibold"
+                                    android:gravity="center"
+                                    android:text="@string/Watch_the_video"
+                                    android:textColor="@color/app_color"
+                                    android:textSize="@dimen/_13sdp" />
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

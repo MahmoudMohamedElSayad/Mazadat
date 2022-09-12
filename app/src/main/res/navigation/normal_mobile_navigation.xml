@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/normal_mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mazadat.view.fragment.HomeCycle.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/cautionDetailsFragment"
+        android:name="com.example.mazadat.view.fragment.supPages.CautionDetailsFragment"
+        android:label="fragment_caution_details"
+        tools:layout="@layout/fragment_caution_details" />
+    <fragment
+        android:id="@+id/cautionShareFragment"
+        android:name="com.example.mazadat.view.fragment.supPages.CautionShareFragment"
+        android:label="fragment_caution_share"
+        tools:layout="@layout/fragment_caution_share" />
+    <fragment
+        android:id="@+id/cautionRecordsFragment"
+        android:name="com.example.mazadat.view.fragment.supPages.CautionRecordsFragment"
+        android:label="fragment_caution_records"
+        tools:layout="@layout/fragment_caution_records" />
+    <fragment
+        android:id="@+id/notificationsFragment2"
+        android:name="com.example.mazadat.view.fragment.supPages.NotificationsFragment"
+        android:label="fragment_notifications2"
+        tools:layout="@layout/fragment_notifications2" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.mazadat.view.fragment.MorePages.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.mazadat.view.fragment.HomeCycle.MoreFragment"
+        android:label="MoreFragment" />
+    <fragment
+        android:id="@+id/updatePersonalDataFragment"
+        android:name="com.example.mazadat.view.fragment.MorePages.UpdatePersonalDataFragment"
+        android:label="fragment_update_personal_data"
+        tools:layout="@layout/fragment_update_personal_data" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.mazadat.view.fragment.MorePages.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.example.mazadat.view.fragment.HomeCycle.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.example.mazadat.view.fragment.AboutUsPages.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/whoAboutUsFragment"
+        android:name="com.example.mazadat.view.fragment.HomeCycle.WhoAboutUsFragment"
+        android:label="fragment_who_about_us"
+        tools:layout="@layout/fragment_who_about_us" />
+    <fragment
+        android:id="@+id/commonQuestionsFragment"
+        android:name="com.example.mazadat.view.fragment.AboutUsPages.CommonQuestionsFragment"
+        android:label="fragment_common_questions"
+        tools:layout="@layout/fragment_common_questions" />
+    <fragment
+        android:id="@+id/termsAndConditionsFragment"
+        android:name="com.example.mazadat.view.fragment.AboutUsPages.TermsAndConditionsFragment"
+        android:label="fragment_terms_and_conditions"
+        tools:layout="@layout/fragment_terms_and_conditions" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.mazadat.view.fragment.AboutUsPages.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/searchResultsFragment"
+        android:name="com.example.mazadat.view.fragment.supPages.SearchResultsFragment"
+        android:label="fragment_search_results"
+        tools:layout="@layout/fragment_search_results" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.mazadat.view.fragment.HomeCycle.NewsFragment"
+        android:label="NewsFragment" />
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.example.mazadat.view.fragment.supPages.NewsDetailsFragment"
+        android:label="fragment_news_details"
+        tools:layout="@layout/fragment_news_details" />
+
+
+</navigation>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:gravity="center"
+            app:cardCornerRadius="@dimen/_8sdp">
+
+            <LinearLayout
+                android:id="@+id/linear_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_135sdp">
+
+                    <LinearLayout
+                        android:id="@+id/card_all_cautions_item_go_on_cautions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_32sdp"
+                        android:layout_marginTop="@dimen/_42sdp"
+                        android:layout_marginEnd="@dimen/_32sdp"
+                        android:background="@drawable/shapauto"
+                        android:elevation="@dimen/_4sdp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                         >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/card_all_caution_item_day_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/day"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/card_all_caution_item_clock_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/clock"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/card_all_caution_item_minute_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/minute"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/card_all_caution_item_seconds_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center|center_vertical"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/seconds"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/card_all_cautions_item_finish_cautions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_32sdp"
+                        android:layout_marginTop="@dimen/_42sdp"
+                        android:layout_marginEnd="@dimen/_32sdp"
+                        android:background="@drawable/shapauto"
+                        android:elevation="@dimen/_4sdp"
+                        android:orientation="horizontal"
+
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="00"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/day"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="00"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/clock"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="00"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/minute"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center|center_vertical"
+                                android:text="00"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+
+                                android:text="@string/seconds"
+                                android:textColor="@color/hint_ABABAB"
+                                android:textSize="@dimen/_11ssp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/card_all_caution_will_start_caution_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_32sdp"
+                        android:layout_marginTop="@dimen/_42sdp"
+                        android:layout_marginEnd="@dimen/_32sdp"
+                        android:background="@drawable/shapauto"
+                        android:elevation="@dimen/_4sdp"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="الخميس"
+                                android:textColor="@color/blue_187BB9"
+                                android:textSize="@dimen/_15ssp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="1444/01/03"
+                                android:textColor="@color/blue_187BB9"
+                                android:textSize="@dimen/_12ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="2022/08/01"
+                                android:textColor="@color/blue_187BB9"
+                                android:textSize="@dimen/_12ssp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ccccc" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_background_black"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                        <TextView
+                            android:id="@+id/card_all_cautions_item_caution_status_tv"
+                            android:layout_width="@dimen/_180sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|center_vertical"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:fontFamily="@font/notosansarabic_regular"
+                            android:gravity="center"
+                            android:lineSpacingExtra="-10sp"
+                            android:shadowColor="@color/black_1F1F1F"
+                            android:text="@string/Remaining_until_the_end_of_the_auction"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:fontFamily="@font/notosansarabic_regular"
+                    android:gravity="start"
+                    android:lineSpacingExtra="-10sp"
+                    android:text="عقار بالمعابدة بجوار مسجد الإجابة بمكة"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:fontFamily="@font/notosansarabic_regular"
+                        android:lineSpacingExtra="-10sp"
+                        android:text="مبلغ التأمين : "
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosansarabic_medium"
+                        android:gravity="start"
+                        android:lineSpacingExtra="-10sp"
+                        android:text="100,000 ر.س"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/card_all_caution_item_show_details_btu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_buttom_blue"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:text="@string/show_details"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13ssp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/caution_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:background="@drawable/sup_blue_shape"
+            android:elevation="@dimen/_2sdp"
+            android:fontFamily="@font/notosansarabic_regular"
+            android:paddingStart="@dimen/_25sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingEnd="@dimen/_25sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:text="مزاد قادم"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+
+            />
+    </FrameLayout>
+</LinearLayout>

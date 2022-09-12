@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragment.MorePages.UpdatePersonalDataFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_40sdp">
+
+        <ImageView
+            android:id="@+id/back_btu"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:elevation="@dimen/_5sdp"
+            android:src="@drawable/ic_back_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/notosansarabic_semibold"
+            android:background="#30EDEDED"
+            android:text="@string/Modification_of_personal_data"
+            android:textColor="@color/black_1F1F1F"
+            android:textSize="@dimen/_16ssp" />
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#30EDEDED"
+        android:fillViewport="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_1sdp"
+                android:padding="@dimen/_30sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mobile_login_pana_1_more_image" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/notosansarabic_semibold"
+                android:gravity="start"
+                android:text="@string/Personal_data"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_15ssp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:lineSpacingMultiplier=".6"
+
+                android:fontFamily="@font/notosansarabic_medium"
+                android:gravity="start"
+                android:text="@string/Click_on_the_data_you"
+                android:textColor="@color/gray_424242"
+                android:textSize="@dimen/_10ssp" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragment_update_personal_data_name_input_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:boxStrokeColor="@color/app_color"
+                app:boxStrokeErrorColor="@color/red"
+                app:boxBackgroundColor="@color/white"
+                app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+                app:boxCornerRadiusTopStart="@dimen/_8sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:boxStrokeWidth="1dp"
+                app:hintEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fragment_update_personal_data_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:drawableStart="@drawable/account_image_selector"
+                    android:gravity="start|center_vertical"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:hint="@string/The_name"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/hint_ABABAB"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_update_personal_data_phone_input_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:boxStrokeColor="@color/app_color"
+                    app:boxStrokeErrorColor="@color/red"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxCornerRadiusTopEnd="@dimen/_8sdp"
+                    app:boxCornerRadiusTopStart="@dimen/_8sdp"
+                    app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
+                    app:boxCornerRadiusBottomStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:boxStrokeWidth="1dp"
+                    app:hintEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fragment_update_personal_data_phone_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:drawableStart="@drawable/mobile_image_selector"
+                        android:gravity="start|center_vertical"
+                        android:drawablePadding="@dimen/_8sdp"
+                        android:hint="@string/phone_number"
+                        android:inputType="phone"
+                        android:textAlignment="viewStart"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/hint_ABABAB"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/fragment_update_personal_data_save_update_btu"
+                    style="@style/text_view_style_noto_sans_arabic_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:background="@drawable/shap_buttom_blue"
+                    android:includeFontPadding="false"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="@string/save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13ssp"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>

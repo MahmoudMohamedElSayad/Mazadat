@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/home_parent_layout"
+    tools:context=".view.fragment.HomeCycle.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_210sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:background="@drawable/header"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fragment_home_frame_welcome_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_30sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/fragment_fillter_model_car_linear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center">
+
+                            <FrameLayout
+                                android:id="@+id/fragment_home_update_profile_btu"
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="@dimen/_8sdp"
+                                android:gravity="start"
+                                app:cardCornerRadius="@dimen/_8sdp"
+                                app:cardElevation="@dimen/_2sdp">
+
+                                <ImageView
+                                    android:id="@+id/back_image"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    android:src="@drawable/ic_menu_image" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|center_vertical"
+                            android:fontFamily="@font/notosansarabic_semibold"
+                            android:gravity="start"
+                            android:text="@string/home_page"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/gray2"
+                            android:textSize="@dimen/_16ssp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end"
+
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/fragment_home_notifications_btu"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_8sdp"
+
+                            android:gravity="center"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardElevation="@dimen/_2sdp">
+
+                            <ImageView
+                                android:id="@+id/home_fragment_notifications_btu"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="center"
+                                android:src="@drawable/ic_notification_fill"
+
+                                />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:fontFamily="@font/notosansarabic_medium"
+                android:gravity="start"
+                android:lineSpacingMultiplier=".8"
+                android:text="@string/welcome_message"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                style="@style/text_view_style_noto_sans_arabic_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="@string/Easily_participate"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/shapauto"
+            android:elevation="@dimen/_4sdp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <AutoCompleteTextView
+                android:id="@+id/fragment_home_search_Et"
+                style="@style/EditTextsearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:inputType="none"
+                android:focusable="false"
+                android:drawableStart="@drawable/ic_home_search_icon"
+                android:drawablePadding="@dimen/_8sdp"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:gravity="start|center_vertical"
+                android:hint="@string/Search_for_auctions"
+                android:textAlignment="viewStart"
+                android:textColor="@color/app_color"
+                android:textColorHint="@color/hint_ABABAB"
+                android:textSize="@dimen/_13ssp" />
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:id="@+id/fragment_caution_filter_btu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/item_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:drawableStart="@drawable/ic_filter_icon"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:text="التصنيف"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/notosansarabic_semibold"
+                android:gravity="start"
+                android:text="مزادات ستنتهي قريبًا"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_15ssp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_home_will_finish_cautions_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/notosansarabic_semibold"
+                android:gravity="start"
+                android:text="@string/All_auctions"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_15ssp" />
+            <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/fragment_home_all_cautions_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:paddingBottom="@dimen/_20sdp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.supPages.CautionShareFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp">
+
+                <ImageView
+                    android:id="@+id/caution_details_fragment_image_caution_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ccccc" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/gradient_background_black_two"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_40sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/back_btu"
+                            android:layout_width="@dimen/_27sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginEnd="@dimen/_15sdp"
+                            android:elevation="@dimen/_5sdp"
+                            android:src="@drawable/ic_back_image"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:id="@+id/fragment_sub_category_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosansarabic_semibold"
+                            android:gravity="center"
+                            android:text="@string/Participate_in_the_auction"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_16sdp" />
+
+                        <ImageView
+                            android:id="@+id/share_btu"
+                            android:layout_width="@dimen/_27sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginEnd="@dimen/_15sdp"
+                            android:elevation="@dimen/_5sdp"
+                            android:src="@drawable/ic_vector_share_btu"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/fragment_caution_details_caution_status_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="@drawable/sup_grean_shape"
+                        android:elevation="@dimen/_1sdp"
+                        android:fontFamily="@font/notosansarabic_regular"
+                        android:paddingStart="@dimen/_16sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingEnd="@dimen/_16sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+                        android:text="@string/Auction_finished"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_64sdp"
+                        android:layout_marginEnd="@dimen/_64sdp"
+                        android:background="@drawable/sup_white_shape_two"
+                        android:elevation="@dimen/_4sdp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_day_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+                                android:letterSpacing="0.01"
+                                android:lineSpacingExtra="-10sp"
+                                android:text="@string/day"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_10ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_clock_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+                                android:letterSpacing="0.01"
+                                android:lineSpacingExtra="-10sp"
+                                android:text="@string/clock"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_10ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_minute_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+                                android:letterSpacing="0.01"
+                                android:lineSpacingExtra="-10sp"
+                                android:text="@string/minute"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_10ssp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/view_style3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_4sdp"
+
+                            android:padding="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="@dimen/_1sdp"
+                            android:layout_marginBottom="@dimen/_1sdp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_caution_details_second_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_semibold"
+                                android:gravity="center|center_vertical"
+                                android:text="04"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_13ssp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosansarabic_regular"
+                                android:gravity="center"
+                                android:letterSpacing="0.01"
+                                android:lineSpacingExtra="-10sp"
+                                android:text="@string/seconds"
+                                android:textColor="@color/grean_0B847A"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/blue_D3E8F5">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/notosansarabic_semibold"
+                        android:text="@string/current_price"
+                        android:textColor="@color/black_1F1F1F"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:fontFamily="@font/notosansarabic_semibold"
+                        android:maxLines="1"
+                        android:text="4,410,000 ر.س"
+                        android:textColor="@color/black_1F1F1F"
+                        android:textSize="@dimen/_13ssp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_person"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/number_of_bidding"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="5"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:id="@+id/fragment_caution_details_show_records_btu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:background="@drawable/strock_blue_shape"
+                    android:fontFamily="@font/notosansarabic_bold"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:text="@string/Watch_the_record"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/_11ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_money"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Quest_value"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="5"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_report"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Added_tax_value"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="4,410,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_image_meter"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Price_per_square_meter"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="4,410,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_area_image"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Area_m"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="50,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:padding="1dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/notosansarabic_semibold"
+                android:gravity="start"
+                android:lineSpacingMultiplier=".6"
+                android:text="@string/caution_data"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:gravity="start"
+                android:lineSpacingMultiplier=".6"
+                android:text="الحد الأدنى للمزايدة 50,000 ر.س"
+                android:textColor="@color/black_4F4F4F"
+                android:textSize="@dimen/_11ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/add_post_buttom"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/circle_shap"
+                    android:elevation="@dimen/_50sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_plus_plue_image" />
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="4,410,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_15ssp" />
+
+
+                <FrameLayout
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/circle_shap"
+                    android:elevation="@dimen/_50sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_minus_image" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_image_meter"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Price_per_square_meter"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="4,410,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_money"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Quest_value"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="109,000 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_16sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_caution_share_report"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:text="@string/Added_tax_value"
+                    android:textColor="@color/hint_595959"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosansarabic_semibold"
+                    android:text="16,537.5 ر.س"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_11ssp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/fragment_caution_details_share_in_cautions_btu"
+                style="@style/text_view_style_noto_sans_arabic_bold"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:background="@drawable/shap_buttom_blue"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:text="@string/Submit_your_bid"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

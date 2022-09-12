@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_marginStart="@dimen/_16sdp"
+    android:layout_marginEnd="@dimen/_16sdp"
+    android:elevation="@dimen/_5ssp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic__02_wallet_1_dialog_image"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/fragment_news_details_title_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/notosansarabic_semibold"
+            android:gravity="center"
+            android:lineSpacingExtra="-14dp"
+            android:text="@string/Security_deposit_must_be_paid"
+            android:textColor="@color/black_1F1F1F"
+            android:textSize="@dimen/_15ssp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:fontFamily="@font/notosansarabic_regular"
+            android:gravity="center"
+            android:lineSpacingExtra="-10dp"
+            android:text="للدخول للمزاد والمشاركة به، وإضافة مزايداتك سوف يتم خصم مبلغ 100,000 ر.س"
+            android:textColor="@color/black_404040"
+            android:textSize="@dimen/_13ssp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_payball_money_not_now_btu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:layout_weight="1"
+                android:background="@drawable/strock_blue_shape"
+                android:fontFamily="@font/notosansarabic_medium"
+                android:gravity="center"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:text="@string/not_now"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/dialog_payball_money_pay_money_btu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_weight="1"
+                android:background="@drawable/shap_buttom_blue_two"
+                android:fontFamily="@font/notosansarabic_medium"
+                android:gravity="center"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:text="@string/Pay_the_security_deposit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

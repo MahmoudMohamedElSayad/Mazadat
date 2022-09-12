@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragment.supPages.SearchResultsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp">
+
+        <ImageView
+            android:id="@+id/back_btu"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:elevation="@dimen/_5sdp"
+            android:src="@drawable/ic_back_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragment_sub_category_title"
+            android:fontFamily="@font/notosansarabic_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#30EDEDED"
+            android:text="@string/research_results"
+            android:textColor="@color/black_1F1F1F"
+            android:textSize="@dimen/_15sdp" />
+    </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/shapauto"
+            android:elevation="@dimen/_4sdp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <AutoCompleteTextView
+                android:id="@+id/fragment_result_search_Et"
+                style="@style/EditTextsearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_home_search_icon"
+                android:drawablePadding="@dimen/_8sdp"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:gravity="start|center_vertical"
+                android:hint="@string/Search_for_auctions"
+                android:textAlignment="viewStart"
+                android:textColor="@color/app_color"
+                android:textColorHint="@color/hint_ABABAB"
+                android:textSize="@dimen/_13ssp" />
+
+            <ImageView
+                style="@style/view_style3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:padding="1dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/item_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:drawableStart="@drawable/ic_filter_icon"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/notosansarabic_medium"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:text="التصنيف"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_search_results_Rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--                                        <include-->
+            <!--                                            layout="@layout/item_load_more"-->
+            <!--                                            android:layout_width="match_parent"-->
+            <!--                                            android:layout_height="wrap_content"-->
+            <!--                                            android:layout_alignParentBottom="true" />-->
+
+
+            <!--                    <include layout="@layout/cardview_general_vert_hajj_and_hotels_item" />-->
+            <!--                <include layout="@layout/not_found_result_error" />-->
+
+            <!--                <include layout="@layout/server_error" />-->
+
+            <!--                <include layout="@layout/not_enternet_" />-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

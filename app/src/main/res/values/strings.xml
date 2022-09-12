@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">مزادات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">Select Map Location</string>
+    <string name="invalid_email">Email must be like this \"example@example.example\"</string>
+    <string name="invalid_phone1">Phone number must be equal 11 numbers</string>
+    <string name="invalid_confirm_password">Confirm password not match</string>
+    <string name="invalid_phone2"> number</string>
+    <string name="Search">Search on Haraj</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="login">Log In</string>
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+    <string name="forget_password_title">Forget Password</string>
+    <string name="enter_email_we_help">"Enter Your email and we'll help\nyou reset your password"</string>
+    <string name="dont_wory">"Don't  Worry !"</string>
+    <string name="mail">Mail</string>
+    <string name="phone">Your Phone</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="Reghis">Reghis</string>
+    <string name="favourites">Favourites</string>
+    <string name="notification">Notification</string>
+    <string name="messages">Messages</string>
+    <string name="addposting">Add Posting</string>
+    <string name="uploadimg">Upload Imgs</string>
+    <string name="Aim_app">All You need without stress</string>
+    <string name="Aim_app2">"Request anything you need, there are\n all thing in this app"</string>
+    <string name="sign_in">Log In</string>
+    <string name="rejester">Sign Up</string>
+    <string name="phone_or_usernumber">Phone number or user name</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="re_Password">Re_Password</string>
+    <string name="phone2">Phone</string>
+    <string name="Dont_have_an_account">"Don't have an account?"</string>
+    <string name="create_new_account">إنشاء حساب جديد</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Agree_the_Terms_and_Condition">Agree the Terms and Condition</string>
+    <string name="Already_have_Account">Already have Account?</string>
+    <string name="Login_here">Login here</string>
+    <string name="empty">Please Enter and Complete your Data First</string>
+    <string name="warning">Warning</string>
+    <string name="invalid_email_required_field">Email Field Required</string>
+    <string name="invalid_password">Password must be more than 7 of chars and numbers</string>
+    <string name="not_match">The password not match </string>
+    <string name="check_Empty_login">Enter Check credentials.</string>
+    <string name="error_inter_net">No internet connection Please check your internet and try again later</string>
+    <string name="login_text">تسجيل الدخول</string>
+    <string name="welcome_in_mazadat">أهلا بك في المزايد</string>
+    <string name="info_app">المزايد هو مكانك الآمن للمزايدة، ادخل بياناتك لتسجيل الدخول</string>
+    <string name="identification_number">رقم الهوية</string>
+    <string name="load_more">تحميل المزيد</string>
+    <string name="donot_have_account">لا يوجد عندك حساب؟</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="cancel">إلغاء</string>
+    <string name="rejester_app"> يمكنك الآن المشاركة معنا بكل سهولة، ادخل بياناتك لإنشاء حساب</string>
+    <string name="ensure_data">تحقق من البيانات</string>
+    <string name="already_user">هل لديك حساب بالفعل ؟</string>
+    <string name="date_time">تاريخ الميلاد</string>
+    <string name="enter_perified_code">إدخال رمز التحقق</string>
+    <string name="perified_code_done_message">تم إرسال رمز التحقق </string>
+    <string name="please_insert_perivied_code">من فضلك ادخل رمز التحقق المرسل إلى جوالك</string>
+    <string name="dont_send_code">لم يصلك رمز التفعيل ؟</string>
+    <string name="resend_code">إعادة إرسال </string>
+    <string name="continuee">إستمرار</string>
+    <string name="insert_code">من فضلك أدخل رمز التحقق كامل</string>
+    <string name="forget_password2">هل نسيت كلمة المرور ؟</string>
+    <string name="dont_worry">لا تقلق سنساعدك في إستعادتها</string>
+    <string name="insert_your_phone">يرجى إدخال رقم الجوال المسجل به الحساب</string>
+    <string name="send_verified_code">إرسال رمز التحقق</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="last_step">الخطوة الأخيرة</string>
+    <string name="insert_new_password_to_your_account">قم بإدخال كلمة المرو الخاصة بحسابك الجديد</string>
+    <string name="save_new_password">حفظ كلمة المرور الجديدة</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="re_enter_new_password">إعادة كلمة المرور الجديدة</string>
+    <string name="common_questions">الأسئلة الشائعة</string>
+    <string name="What_is_the_bidding_platform">ما هي منصة المزايد ؟</string>
+    <string name="If_the_auction_ends_and_it_does_not_reach_its_estimated_value_is_the_eye_awarde_to_the_highest_bidder">في حال انتهاء المزاد ولم يصل لقيمته التقديرية هل ترسى العين على صاحب المزايدة الأعلى؟</string>
+    <string name="What_are_the_advantages_of_bidding">ما هي مزايا المزايد ؟</string>
+    <string name="Is_the_bidding_process_on_the_site_reliable">هل عملية المزايدة في الموقع موثوقة؟</string>
+    <string name="Is_it_possible_to_participate_in_auctions_without_logging_into_the_platform">هل يمكن المشاركة في المزادات بدون تسجيل الدخول للمنصة؟</string>
+    <string name="What_is_the_procedure_if_the_bidder"> ما هو الإجراء في حال عدم رغبة المزايد في إكمال مبلغ الشراء بعد ترسية المزاد؟ </string>
+    <string name="Is_it_possible_to_view_auctions_without">هل بالإمكان الاطلاع على مجريات المزادات بدون تسجيل الدخول على المنصة؟</string>
+    <string name="Is_there_a_specific_number_of">هل يوجد عدد محدد من المشاركين للبدء في عملية المزايدة؟</string>
+    <string name="my_stats">الإحصائيات الخاصة بي</string>
+    <string name="Auction_Statistics">إحصائيات المزادات</string>
+    <string name="Awarded">تم الترسية</string>
+    <string name="Not_awarded">لم يتم الترسية</string>
+    <string name="home_page">الرئيسية</string>
+    <string name="welcome_message">أهلا بك في تطبيق المزايد .. جميع المزايدات مأمنة\nو يمكنك البحث أو تصنيف المزادات حسب رغبتك</string>
+    <string name="Easily_participate">شارك الآن في المزايدات بكل سهولة</string>
+    <string name="Search_for_auctions">بحث عن مزادات ...</string>
+    <string name="day">يوم</string>
+    <string name="clock">ساعة</string>
+    <string name="minute">دقيقة</string>
+    <string name="seconds">ثانية</string>
+    <string name="show_details">شاهد التفاصيل</string>
+    <string name="Remaining_until_the_end_of_the_auction">متبقي على إنتهاء المزاد</string>
+    <string name="All_auctions">جميع المزادات</string>
+    <string name="Auction_finished">مزاد منتهي</string>
+    <string name="caution_details">تفاصيل المزاد</string>
+    <string name="el_aan_details">تفاصيل العين</string>
+    <string name="el_aan_properties">خصائص العين</string>
+    <string name="attachment">المرفقات</string>
+    <string name="Watch_the_record">شاهد السجل</string>
+    <string name="eye_type">نوع العين :</string>
+    <string name="Area_m">المساحة م² :</string>
+    <string name="Region">المنطقة :</string>
+    <string name="City">المدينة :</string>
+    <string name="Entity">الجهة :</string>
+    <string name="Al_Ain_location_on_the_map">موقع العين على الخريطة</string>
+    <string name="North">شمالاً :</string>
+    <string name="south">جنوبًا :</string>
+    <string name="East">شرقًا :</string>
+    <string name="West">غربًا :</string>
+    <string name="Number_of_bedrooms">عدد غرف النوم :</string>
+    <string name="Number_of_halls">عدد الصالات :</string>
+    <string name="Number_of_toilets">عدد دورات المياه :</string>
+    <string name="brochure">البرشور</string>
+    <string name="Watch_the_video">شاهد الفيديو</string>
+    <string name="Participate_in_the_auction">المشاركة في المزاد</string>
+    <string name="current_price">السعر الحالي :</string>
+    <string name="number_of_bidding">عدد المزايدات :</string>
+    <string name="Quest_value">قيمة السعي :</string>
+    <string name="Price_per_square_meter">سعر المتر م² :</string>
+    <string name="Added_tax_value"> قيمة الضريبة المضافة :</string>
+    <string name="caution_data">بيانات المزايدة </string>
+    <string name="Submit_your_bid">قدم مزايدتك</string>
+    <string name="Bid_Record">سجل المزايدة</string>
+    <string name="highest_bid">أعلى مزايدة</string>
+    <string name="Latest_Bids">آخر المزايدات</string>
+    <string name="Portfolio">المحفظة</string>
+    <string name="available_balance">الرصيد المتوفر</string>
+    <string name="Contact_us_to_charge_the_wallet">تواصل معنا لشحن المحفظة</string>
+    <string name="Previous_Transactions">المعاملات السابقة</string>
+    <string name="Notifications">الإشعارات</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="Modification_of_personal_data">تعديل البيانات الشخصية</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="Share_the_app">مشاركة التطبيق</string>
+    <string name="Personal_data">البيانات الشخصية</string>
+    <string name="Click_on_the_data_you">اضغط على البيانات التي تود تعديلها ثم اضغط حفظ بعد الإنتهاء</string>
+    <string name="The_name">الإسم</string>
+    <string name="save">حفظ</string>
+    <string name="Current_Password">كلمة المرور الحالية</string>
+    <string name="Reset_new_password">إعادة كلمة المرور الجديدة</string>
+    <string name="serverError">هناك خطأ في الخادم حاول مرة أخرى</string>
+    <string name="deposit"> إيداع</string>
+    <string name="pall">سحب</string>
+    <string name="Connect_with_us">تواصل معنا</string>
+    <string name="Enter_the_data_to_send">ادخل البيانات لإرسال رسالة</string>
+    <string name="Enter_your_message">ادخل رسالتك هنا</string>
+    <string name="send">إرسال</string>
+    <string name="Or_contact_us_via">أو تواصل معنا عن طريق :</string>
+    <string name="Mobile_call">الاتصال بالجوال</string>
+    <string name="whats_up">الواتس أب</string>
+    <string name="Learn_more_about_us">اعرف أكثر عننا</string>
+    <string name="who_are_we">من نحن</string>
+    <string name="Terms_and_Conditions">الشروط والأحكام</string>
+    <string name="research_results">نتائج البحث</string>
+    <string name="news">الأخبار</string>
+    <string name="Related_news">أخبار ذات صلة</string>
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Personal</item>
+        <item>High scores</item>
+        <item>Settings</item>
+        <item>About</item>
+    </array>
+    <string name="Your_bid_has_been_successfully_added">تم إضافة مزايدتك بنجاح</string>
+    <string name="Auction_has_ended">تم إنتهاء المزاد</string>
+    <string name="Auction_in_progress">مزاد جاري</string>
+    <string name="Auction_Status">حالة المزاد</string>
+    <string name="eye_type2">نوع العين</string>
+    <string name="city2">المدينة</string>
+    <string name="the_side">الجهة</string>
+    <string name="Filter_search_results">فلترة نتائج البحث</string>
+    <string name="Search_by_categories_to_easily_find_what_you_want">ابحث بالتصنيفات لسهولة العثور على ما تريد</string>
+    <string name="Auction_classification">تصنيف المزادات</string>
+    <string name="Security_deposit_must_be_paid">يجب دفع مبلغ التأمين</string>
+    <string name="Pay_the_security_deposit">دفع مبلغ التأمين</string>
+    <string name="not_now">ليس الآن</string>
+    <string name="Sorry_there_is_not_enough_balance_in_the_wallet">نأسف لا يوجد رصيد كافي في المحفظة</string>
+    <string name="Your_message_was_sent_successfully">تم إرسال رسالتك بنجاح</string>
+    <string name="Upcoming_auction">مزاد قادم</string>
+    <string name="The_auction_will_start_on">سوف يبدأ المزاد في يوم</string>
+    <string name="Main">الرئيسية</string>
+    <string name="Change_the_language">تغيير اللغة</string>
+    <string-array name="ld_activityScreenTitles">
+        <item>Dashboard</item>
+        <item>My Account</item>
+        <item>Messages</item>
+        <item>Cart</item>
+        <item />
+        <item>Log Out</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_home_search_icon</item>
+        <item>@drawable/ic_home_search_icon</item>
+        <item>@drawable/ic_home_search_icon</item>
+        <item>@drawable/ic_home_search_icon</item>
+        <item>0</item>
+        <item>@drawable/ic_home_search_icon</item>
+    </array>
+
+</resources>

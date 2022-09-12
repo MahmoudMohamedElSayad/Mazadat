@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable-v24/linear_shap_border_gray.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable-v24/sup_blue_shape.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/account_image_selector.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/arrow_drop_down_selector.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/black_out_border_shape.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/blue_shap_circle.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/cancel_check.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/card_shape.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/circle_shap.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/date_image_selector.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_background_black.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_background_black_two.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_black_shape.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_blue_color.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_navigation_shape.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/gradient_yellow_color.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/graen_shape.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic__01_sad_1_not_available_money.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic__02_wallet_1_dialog_image.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_arrow__1_down_common.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_arrow_right_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_arrow_up_blue_image.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_back_image.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_caution_share_image_meter.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_caution_share_person.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_caution_share_report.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_charts_pana_1_image.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_checklist_pana_1_terms_and_conditions_icon.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_close_image_icone.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_close_image_white.xml" value="0.3" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_contact_us_more_info_image.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_date_active_image.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_date_time_white_image.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_graph_more_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_header.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_home_search_icon.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_icon_news.xml" value="0.221875" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_identify_image_active.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_increase_image_grean.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_info_more_info.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_lock_image_active.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_logo_basic_image.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_messaging_pana_contact_us_image.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_mobile_active_image.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_mobile_disactive_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_mobile_login_pana_1_more_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_my_password_pana_1_new_password.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_my_password_pana_image.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_notification_fill.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_pdf_file.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_processing_pana_1_more_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_questions_more_info_image.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_questions_pana_1_image.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_share_more_image.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_terms_more_info_image.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_vector_login_icon.xml" value="0.221875" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_vector_share_btu.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_wallet_icone.xml" value="0.221875" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_wallet_pana_1.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/ic_youtube.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/identify_image_selector.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/linear_shap_blue.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/linear_shap_border_gray.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/linear_shap_white.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/lock_image_selector.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/mobile_image_selector.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/red_shap_circle.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/red_shape.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/shap_buttom_blue.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/shap_buttom_blue_two.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/shapauto.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/shape_edit_text_border.xml" value="0.275" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/strock_blue_shape.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/sup_blue_shape.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/sup_brown_shape.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/sup_grean_shape.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/sup_white_shape.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/drawable/sup_white_shape_two.xml" value="0.30648148148148147" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/activity_home_cycle.xml" value="0.16216216216216217" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/activity_home_cycle2.xml" value="0.25" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_all_cautions_item.xml" value="0.25" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_all_images_gallary_item.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_common_questions_item.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_img_item_basic_rv.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_news_item.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_notification_item.xml" value="0.1953125" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_notifications_item.xml" value="0.22" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_related_news_item.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_wallet_item.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/card_will_finish_cautions_item.xml" value="0.2930253623188406" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/caution_records_item.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/dialog_done.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/dialog_not_available_money.xml" value="0.33" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/dialog_payball_money.xml" value="0.25" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/dialog_search_cautions.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_about_us.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_caution_details.xml" value="0.33" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_caution_records.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_caution_share.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_cautions_record.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_centered_text.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_change_password.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_common_questions.xml" value="0.33" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_contact_us.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_forget_password.xml" value="0.1953125" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_more.xml" value="0.22" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_new_password.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_news.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_news_details.xml" value="0.22" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_notifications.xml" value="0.1953125" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_notifications2.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_resister.xml" value="0.1953125" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_search_results.xml" value="0.22" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_statistics.xml" value="0.297554347826087" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_terms_and_conditions.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_update_personal_data.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_verification_code.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_wallet.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/fragment_who_about_us.xml" value="0.22" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/item_load_more.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/item_options.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/menu_left_drawer.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/no_wifi_connection_layout.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/caution/app/src/main/res/layout/server_error.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/codeLop-6/AndroidStudioProjects/reghis/reghis/app/src/main/res/layout/fragment_home.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

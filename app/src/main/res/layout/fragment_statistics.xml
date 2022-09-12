@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.MorePages.StatisticsFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_40sdp">
+
+        <ImageView
+            android:id="@+id/back_btu"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:elevation="@dimen/_5sdp"
+            android:src="@drawable/ic_back_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragment_sub_category_title"
+            android:fontFamily="@font/notosansarabic_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#30EDEDED"
+            android:text="@string/my_stats"
+            android:textColor="@color/black_1F1F1F"
+            android:textSize="@dimen/_16sdp" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#30EDEDED"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:elevation="@dimen/_1sdp"
+                android:padding="@dimen/_30sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_charts_pana_1_image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:background="@drawable/linear_shap_white"
+                android:elevation="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_view_style_noto_sans_arabic_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:gravity="start"
+                    android:text="@string/Auction_Statistics"
+                    android:textColor="@color/black_1F1F1F"
+                    android:textSize="@dimen/_13ssp" />
+
+                <TextView
+                    android:id="@+id/fragment_statistic_number_of_auctions_tv"
+                    style="@style/text_view_style_noto_sans_arabic_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:gravity="start"
+                    android:text="إجمالي المزادات التي تم الإشتراك بها : 300 "
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/_11ssp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:orientation="horizontal">
+
+                    <lecho.lib.hellocharts.view.PieChartView
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:gravity="center|end"
+                        android:orientation="vertical"
+                        android:paddingStart="@dimen/_32sdp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center_vertical|center"
+                                android:src="@drawable/blue_shap_circle" />
+
+                            <TextView
+                                style="@style/text_view_style_noto_sans_arabic_regular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Awarded"
+                                android:textColor="@color/app_color"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/red_shap_circle" />
+
+                            <TextView
+                                style="@style/text_view_style_noto_sans_arabic_regular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:paddingBottom="@dimen/_4sdp"
+                                android:fontFamily="@font/notosansarabic_medium"
+                                android:text="@string/Not_awarded"
+                                android:textColor="@color/red_E55151"
+                                android:textSize="@dimen/_10sdp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

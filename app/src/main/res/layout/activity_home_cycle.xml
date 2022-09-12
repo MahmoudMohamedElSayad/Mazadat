@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.activity.HomeCycleActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/home_activity_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:visibility="visible"
+        >
+
+
+        <fragment
+            android:id="@+id/home_activity_fragment_normal"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/normal_mobile_navigation" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        style="@style/navigation_buttom_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/gradient_navigation_shape"
+        android:fitsSystemWindows="true"
+        android:paddingBottom="@dimen/_1ssp"
+        android:scrollIndicators="bottom"
+        android:visibility="gone"
+        app:itemIconSize="@dimen/_13ssp"
+
+        app:labelVisibilityMode="labeled"
+
+        app:menu="@menu/normal_bottom_nav_menu" />
+
+</LinearLayout>
+
+

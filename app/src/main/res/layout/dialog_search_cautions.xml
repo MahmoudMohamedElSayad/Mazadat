@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_marginStart="@dimen/_16sdp"
+    android:layout_marginEnd="@dimen/_16sdp"
+    android:elevation="@dimen/_5ssp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/fragment_news_details_title_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:fontFamily="@font/notosansarabic_semibold"
+            android:gravity="center"
+            android:lineSpacingExtra="-14dp"
+            android:text="@string/Filter_search_results"
+
+            android:textColor="@color/black_1F1F1F"
+            android:textSize="@dimen/_15ssp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:fontFamily="@font/notosansarabic_regular"
+            android:gravity="center"
+            android:lineSpacingExtra="-14dp"
+            android:text="@string/Search_by_categories_to_easily_find_what_you_want"
+
+            android:textColor="@color/hint_ABABAB"
+            android:textSize="@dimen/_13ssp" />
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/hint_ABABAB"
+            app:boxBackgroundColor="@color/white"
+            app:endIconDrawable="@drawable/arrow_drop_down_selector">
+
+            <AutoCompleteTextView
+                android:id="@+id/dialog_search_cautions_status_edit"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:hint="@string/Auction_Status"
+                android:includeFontPadding="false"
+                android:inputType="none"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_9sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_12sdp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/hint_ABABAB"
+            app:boxBackgroundColor="@color/white"
+            app:endIconDrawable="@drawable/arrow_drop_down_selector">
+
+            <AutoCompleteTextView
+                android:id="@+id/dialog_search_cautions_eay_type_edit"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:hint="@string/eye_type2"
+                android:includeFontPadding="false"
+                android:inputType="none"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_9sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_12sdp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/hint_ABABAB"
+            app:boxBackgroundColor="@color/white"
+            app:endIconDrawable="@drawable/arrow_drop_down_selector">
+
+            <AutoCompleteTextView
+                android:id="@+id/dialog_search_cautions_city_edit"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:hint="@string/city2"
+                android:includeFontPadding="false"
+                android:inputType="none"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_9sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_12sdp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/hint_ABABAB"
+            app:boxBackgroundColor="@color/white"
+            app:endIconDrawable="@drawable/arrow_drop_down_selector">
+
+            <AutoCompleteTextView
+                android:id="@+id/dialog_search_cautions_destination_edit"
+                android:fontFamily="@font/notosansarabic_regular"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:hint="@string/the_side"
+                android:includeFontPadding="false"
+                android:inputType="none"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_9sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_1F1F1F"
+                android:textSize="@dimen/_12sdp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/dialog_search_cautions_search_btu"
+            style="@style/text_view_style_noto_sans_arabic_bold"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@drawable/shap_buttom_blue"
+            android:includeFontPadding="false"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:text="@string/Auction_classification"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
